@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/file_upload', {
+mongoose.connect("mongodb+srv://Henry:Growlingclown2@cluster0.vnce9.mongodb.net/<dbname>?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true
